@@ -1,0 +1,48 @@
+// for all
+---------
+/ for direct child
+----------
+* select all
+-----------
+
+xpath -> absolute and relative
+$x()
+//tagname[@attribute='value'] // tagname[attribute='value']
+
+"//a[contains(@href, nav_cs bestsellers') and @text='text' and @href='link']"
+
+"//div[@class='a-row a-spacing-base']/input[@type='email']"
+
+"//div[@class='a-section']//h4"
+
+"//div[@class='help-content'] / h1"
+
+"//div[@class='page-container'] //h1"
+
+"//label // h2''
+
+"//input[@id='hubHelpSearchInput']"
+
+"//div[@class='page-wrapper'] // h2"
+
+From Child to Parent:
+''//*[./a[@id='site]]
+
+--------
+
+using and
+'//al[@aria-label='Anazon' and chref='/ref-nav_ logo']"
+
+using contains
+//div[@id='nav-tools']//a[contains(@href, 'ct&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth')]"
+"//div[@id='legalTextRow']/a[contains(@href,'ie=UTF8&nodeId=508088')]"
+"//a[contains(@href, nav_cs bestsellers')]"
+
+using starts with
+//a[starts-with(@href,/gp/bestsellers/?")]'
+
+using text
+"//*[contains(text(), 'Lets go')]" or '//*(text()="Sup")'
+"//div[@id='nav-xshop']//a[text()='Best Sellers']"
+"//h2[text() ='The warm-weather edit']"
+"//h2[contains (text(), "The warm-weather edit')]"

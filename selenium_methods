@@ -1,0 +1,36 @@
+pytest -s -v
+
+
+
+
+-------------------------
+get(‘https://url’) - opens a web page
+
+find_element() - searches for an element, throws Exception if element not found
+
+find_elements() - makes a list/array fo elements, no error, empty list
+
+click() - clicks
+
+is_displayed() if web element is displayed
+
+send_keys() - inputs keys into a field
+
+Keys.ENTER
+
+clear() - clears input field
+
+quit() - exits browser
+
+current_url - attribute of current url
+title - attribute of current web page title
+
+(context.driver.find_element(*EMAIL_FIELD).get_attribute('value'),
+context.driver.find_element(*EMAIL_FIELD).get_attribute('property'))
+
+maximize_window()
+
+driver.back()
+driver.refresh()
+
+.text

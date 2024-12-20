@@ -1,0 +1,38 @@
+# before id
+
+"#tabsearch" or 'nav#tabsearch'
+
+----------------------------
+
+dot . before class
+
+one class -> nav.class1
+multi class -> nav.clas1.clas2.class3
+
+using attributes except class and id:
+nav[data='css']
+nav[data='css'][data2='css']
+
+class + attributes
+nav.class[data='value'][data2=value2]
+
+tag[attribute=value] tag.class[attribute=value]
+
+contains:
+nav.class[data*='short']
+
+* selects all
+
+h1.entry-content p1:nth-child(4)
+
+"div.sg-col-inner div.sg-col-inner"
+
+"div.nav-fill #twotabsearchtextbox"
+
+'div.nav-right input[type="submit"]'
+
+"div.article-wrapper.active div[role=button]"
+
+"div[class*=_p13n-zg-nav-tab-all_style_zg-tabs-l"
+
+"div.issue-card-container div.issue-card-wrapper"

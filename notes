@@ -1,0 +1,25 @@
+locators types:
+1. By Id
+2. Xpath
+3. Css
+4. By Name
+5. By TagName
+6. By Class
+7. By Link Text
+
+
+div id = "nav"
+div <- tag
+id <- attribute
+
+xpath -> absolute and relative
+$x()
+//tagname[@attribute='value'] // tagname[attribute='value']
+
+css -> $$
+# before id
+"#tabsearch" or 'nav#tabsearch'
+----------------------------
+dot . before class
+nav.class1
+tag[attribute=value] tag.class[attribute=value]
